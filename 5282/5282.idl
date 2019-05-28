@@ -1,0 +1,20 @@
+// 5282.idl : IDL source for 5282.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (5282.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(F3840D7D-07CE-44F0-96D7-0E4C3F6D7FE2),
+	version(1.0),
+	helpstring("5282 1.0 Type Library")
+]
+library MY5282Lib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+};
