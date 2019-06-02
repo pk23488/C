@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-void print(struct student *);  
+void print(struct student *p);  //新发现：这边是函数声明，参数是可以不加的，但是为了代码工整，建议加上
 
 struct student
 {
